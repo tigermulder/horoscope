@@ -40,15 +40,18 @@ const ManseryeokForm = () => {
     {
       onSuccess: (data) => {
         const extracted = {
-          day: extractChineseCharacters(data.lunIljin),
-          month: extractChineseCharacters(data.lunWolgeon),
+          생년월 : [data.solYear,Number(data.solMonth),data.solDay],
+          age : data.solYear,
+          음력년 : data.lunYear,
           year: extractChineseCharacters(data.lunSecha),
+          month: extractChineseCharacters(data.lunWolgeon),
+          day: extractChineseCharacters(data.lunIljin)
         };
         // 시주 계산
         const hourStem = time !== 'default' ? calculateHourPillar(extracted.day[0], time) : '';
         setUser({ 
           name, 
-          gender, 
+          gender,  
           time: hourStem, 
           ...extracted 
         });
