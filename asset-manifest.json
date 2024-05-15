@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tigermulder/horoscope/static/css/main.222830f2.css",
-    "main.js": "/tigermulder/horoscope/static/js/main.1c7e153a.js",
-    "index.html": "/tigermulder/horoscope/index.html",
-    "main.222830f2.css.map": "/tigermulder/horoscope/static/css/main.222830f2.css.map",
-    "main.1c7e153a.js.map": "/tigermulder/horoscope/static/js/main.1c7e153a.js.map"
+    "main.css": "/static/css/main.222830f2.css",
+    "main.js": "/static/js/main.ea3eb8ed.js",
+    "index.html": "/index.html",
+    "main.222830f2.css.map": "/static/css/main.222830f2.css.map",
+    "main.ea3eb8ed.js.map": "/static/js/main.ea3eb8ed.js.map"
   },
   "entrypoints": [
     "static/css/main.222830f2.css",
-    "static/js/main.1c7e153a.js"
+    "static/js/main.ea3eb8ed.js"
   ]
 }
